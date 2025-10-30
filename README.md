@@ -65,6 +65,6 @@ Through this learning journey, I’m exploring how to:
    
 ### ✨ Author
 **Name:** Gatil Dhawan
-**Learning Platform:** Simplilearn  
+**Learning Platform:** Simplilearn Online Course
 **Purpose:** SQL practice for data analysis and database management   
    
