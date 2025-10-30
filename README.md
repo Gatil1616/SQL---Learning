@@ -1,41 +1,70 @@
-# 📘 My SQL Basic Functions – Practice Repository
+# 🧠 Simplilearn SQL, PostgreSQL, and SQL with Python – Practice Repository
 
-This repository contains my practice SQL queries from the **Simplilearn Introduction to SQL** course.
-
----
-
-## 🧠 Topics Covered in This File
-- Creating tables  
-- Using aggregate functions (`SUM()`, `AVG()`, `COUNT()`, `MAX()`, `MIN()`)  
-- Filtering and sorting data using `WHERE` and `ORDER BY`  
-- Grouping data using `GROUP BY` and `HAVING`  
+Welcome to my **Simplilearn SQL Learning Repository**!  
+This repository contains all my practice work, exercises, and notes from the **Simplilearn Introduction to SQL** course, along with my learning progress in **PostgreSQL** and **SQL integration with Python**.
 
 ---
 
-## 📄 File Included
+## 📘 Course & Learning Overview
+
+Through this learning journey, I’m exploring how to:
+- Create and manage relational databases  
+- Write SQL queries to extract, analyze, and modify data  
+- Use **PostgreSQL** as an open-source database system  
+- Integrate **Python** with SQL for automated data analysis  
+
+---
+
+## 🔍 Topics Covered
+
+### 🧩 SQL Basics
+- Creating Databases and Tables  
+- Inserting, Updating, and Deleting Records  
+- Filtering Data using `WHERE`  
+- Sorting Results using `ORDER BY`  
+- Aggregate Functions: `COUNT()`, `SUM()`, `AVG()`, `MAX()`, `MIN()`  
+- Grouping Data with `GROUP BY` and `HAVING`  
+- Joins and Relationships between Tables  
+
+### 🐘 PostgreSQL
+- PostgreSQL Installation and Setup  
+- Data Types and Constraints  
+- Using SERIAL, PRIMARY KEY, and FOREIGN KEY  
+- String, Date, and Mathematical Functions  
+- Data Import/Export and Query Optimization  
+
+### 🐍 SQL with Python
+- Connecting to Databases using `sqlite3` and `psycopg2`  
+- Executing SQL Queries via Python Scripts  
+- Fetching and Processing Query Results  
+- Performing CRUD Operations (Create, Read, Update, Delete)  
+- Integrating SQL with **Pandas** for Data Analysis  
+
+---
+
+## 📂 Files in This Repository
 
 | File Name | Description |
 |------------|-------------|
-| `My SQL Basic Functions.sql` | Contains basic SQL function queries for learning and practice |
+| `My SQL Basic Functions.sql` | SQL queries demonstrating the use of aggregate and basic functions |
+| `employees.sql` | Employee table creation with insert and select queries |
+| `sales.sql` | Sales table with queries on aggregation and filtering |
+| `PostgreSQL_Practice.sql` | PostgreSQL syntax and database operations |
+| `sql_with_python.ipynb` | Python notebook for SQL query execution examples |
+
+*(More files will be added as I progress further.)*
 
 ---
 
 ## ⚙️ How to Use
 
-1. Open the file in any SQL environment (MySQL Workbench, SQLite, or an online SQL compiler).  
-2. Copy and run each query to see the output.  
-3. Modify values or table names to experiment with different results.  
+1. **Clone or Download the Repository:**
+   ```bash
+   git clone https://github.com/Gatil1616/Simplilearn-SQL-Practice.git
 
----
-
-## 🚀 About
-
-This repository is part of my learning journey through the **Simplilearn Introduction to SQL** course.  
-I’ll keep adding more `.sql` files as I move forward in the course.
-
----
-
+   
 ### ✨ Author
-**Name:** Gatil Dhawan 
+**Name:** Gatil  
 **Learning Platform:** Simplilearn  
-**Purpose:** SQL practice for data analysis and database management
+**Purpose:** SQL practice for data analysis and database management   
+   
