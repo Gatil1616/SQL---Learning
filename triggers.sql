@@ -125,4 +125,34 @@ where eid='103';
 
 select *from salarydel;
 
+create table students1(
+st_roll int ,
+age int,
+Name varchar(20),
+marks float);
+
+delimiter //
+create trigger marks_verify_st
+before insert 
+on students1
+for each row
+begin
+if new.marks<0 then set new.marks=50;
+end if;
+end // 
+
+INSERT INTO students1 VALUES
+(101, 18, 'Riya Sharma', 85.5),
+(102, 19, 'Aman Verma', -56),
+(103, 18, 'Neha Singh', 92.0),
+(104, 20, 'Raj Patel', -32),
+(105, 19, 'Karan Mehta', 76.5),
+(106, 18, 'Pooja Das', -89),
+(107, 21, 'Anjali Roy', 88.0),
+(108, 20, 'Vikram Rao', 95.2);
+
+select *from students1;
+
+drop trigger marks_verify_st;     # Drop used to delete the trigger
+
 
